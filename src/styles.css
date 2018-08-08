@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+:root {
+    --main-primary-color: #4D407E; 
+    --main-secondary-color:#6BB12E;
+}
+
+
+
+/*Navigation*/
+
+.navigation-font{
+    color: white !important;
+}
+
+
+.navigation-font:hover{
+    color: var(--main-secondary-color) !important;
+}
+
+.nav-bar-colors{
+    background-color:var(--main-primary-color) !important;
+    color:var(--main-secondary-color) !important;
+}
+
+/*Navigation end*/
+
+
+.logoSize{
+    height: 480px;
+}
+
+
+.social-icons ul{
+    list-style:none;
+    width:100%;
+    text-align:center
+}
+.social-icons ul li{
+    display:inline-block
+}
+.social-icons ul li a{
+    display:block;
+    padding:6px;
+    font-size:30px;
+    color: #564997;
+    
+}
+
+.green{
+    color: #6BB12E;
+}
+
+
+
+
