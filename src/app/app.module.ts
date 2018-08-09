@@ -5,18 +5,22 @@ import { AppComponent } from './app.component';
 import { DescriptionComponent } from './description/description.component';
 import { MediaComponent } from './media/media.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    DescriptionComponent,
-    MediaComponent,
-    NavbarComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+   declarations: [
+      AppComponent,
+      DescriptionComponent,
+      MediaComponent,
+      NavbarComponent,
+      PortfolioComponent
+   ],
+   imports: [
+      BrowserModule
+   ],
+   providers: [],
+   bootstrap: [
+      AppComponent
+   ]
 })
 export class AppModule { }

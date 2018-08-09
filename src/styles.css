@@ -25,7 +25,7 @@
     color:var(--main-secondary-color) !important;
 }
 
-/*Navigation end*/
+
 
 
 .logoSize{
@@ -45,14 +45,34 @@
     display:block;
     padding:6px;
     font-size:30px;
-    color: #564997;
+    color: var(--main-secondary-color);
     
 }
 
-.green{
-    color: #6BB12E;
+
+
+
+/*Navigation end*/
+
+/*Content*/
+
+
+
+.description-site{
+    background-image: url(../src/assets/image/bg_1.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 300px;
+    padding-bottom: 300px;    
+    
 }
 
-
-
+.portfolio-site{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+/*Content end */
 
