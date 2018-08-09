@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { DescriptionComponent } from './description/description.component';
-import { MediaComponent } from './media/media.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 
@@ -11,7 +10,6 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
    declarations: [
       AppComponent,
       DescriptionComponent,
-      MediaComponent,
       NavbarComponent,
       PortfolioComponent
    ],
