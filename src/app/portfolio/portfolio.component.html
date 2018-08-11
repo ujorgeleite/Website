@@ -1,17 +1,36 @@
 <section class="portfolio-site" id="portfolio-site">
   <div class="container">
+    <div class="row ">      
+      <h1 class="col-md-12 text-center">O que falam sobre...</h1>
+    </div>
     <div class="row">
-      <div class="card col-md cards-portfolio" *ngFor="let item of this.indications;">
+      <div class="card col-md-5 cards-portfolio" *ngFor="let item of indications">
         <div class="card-body">
-            <img src={{item.image}} class="rounded-circle" alt="...">
+          <img src={{item.image}} class="rounded-circle" alt="...">
+          <h5 class="card-title"><b>{{item.name}}</b></h5>
+          <blockquote class="card-text">{{item.description}}</blockquote>
+          <h6><b>{{item.office}}</b></h6>
+          <p class="text-reference">{{item.reference}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+<!--  <div class="container">
+    <div class="row" *ngFor="let item of indications">
+      <div class="card col-mdcards-portfolio">
+        <div class="card-body">
+          <img src={{item.image}} class="rounded-circle" alt="...">
           <h5 class="card-title">{{item.name}}</h5>
           <h6>{{item.office}}</h6>
+          <p class="Sans-13px-black-55%">{{item.reference}}</p>
           <p class="card-text">{{item.description}}</p>
         </div>
       </div>
     </div>
-
-
-
-  </div>
-</section>
+  </div>-->

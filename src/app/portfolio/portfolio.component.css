@@ -1,0 +1,19 @@
+.item-carousel {
+    border: none !important;
+}
+
+.portfolio-site {
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.cards-portfolio {
+    width: 18rem;
+    margin: 2rem;
+}
+
+.text-reference {
+    font-family: "Sans";
+    font-size: 13px;
+    color: black;
+}
