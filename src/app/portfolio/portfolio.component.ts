@@ -1,6 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { IndicationModel } from './indication.model';
-import { CarouselComponent } from "angular2-carousel";
 
 @Component({
   selector: 'app-portfolio',
@@ -9,14 +8,12 @@ import { CarouselComponent } from "angular2-carousel";
 })
 export class PortfolioComponent implements OnInit {
   indications: IndicationModel[] = [];
-  @ViewChild('carousel') carousel: CarouselComponent;
 
   constructor() {
 
   }
 
   ngOnInit() {
-    this.configureCarousel()
     this.generateIndications()
 
 
@@ -35,15 +32,6 @@ export class PortfolioComponent implements OnInit {
     this.indications.push(indicationMarcosArtigas)  
     
   
-  }
-
-  configureCarousel = () => {
-   
-
-  }
-
-  restartCarousel = (event) => { 
- 
   }
 
 }
