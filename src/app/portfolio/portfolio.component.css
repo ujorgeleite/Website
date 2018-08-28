@@ -5,11 +5,46 @@
 .portfolio-site {
     padding-top: 70px;
     padding-bottom: 80px;
+
+
 }
 
 .cards-portfolio {
     width: 18rem;
     margin: 2rem;
+}
+
+.portfolio-title{
+    color:var(--main-primary-color) !important;
+}
+
+.carousel-control-prev:hover{
+    opacity:0.5;
+   background:var(--main-primary-color) !important;
+   width: 50%
+}
+
+.carousel-control-prev{
+    opacity:0.1;
+    background:var(--main-primary-color) !important;
+    width: 50%
+}
+
+
+.carousel-control-next:hover{
+    opacity:0.7;
+    background:var(--main-secondary-color) !important;
+    width: 50%
+}
+
+.carousel-control-next{
+    opacity:0.1;
+    background:var(--main-secondary-color) !important;
+    width: 50%
+}
+
+.labels{
+    background:var(--main-primary-color) !important;
 }
 
 .text-reference {
