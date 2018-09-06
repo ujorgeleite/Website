@@ -1,3 +1,4 @@
+import { PortfolioService } from './portfolio/services/portfolio-service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {CarouselModule} from "angular2-carousel";
@@ -19,7 +20,9 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
       BrowserModule,
       CarouselModule
    ],
-   providers: [],
+   providers: [
+     PortfolioService
+   ],
    bootstrap: [
       AppComponent
    ]
